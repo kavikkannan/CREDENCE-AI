@@ -1,0 +1,73 @@
+{
+  "evaluation_metrics": {
+    "accuracy": 0.8750,
+    "precision": 0.8333,
+    "recall": 0.9091
+  },
+  "detailed_metrics": {
+    "confusion_matrix": {
+      "tp": 10,
+      "fp": 2,
+      "tn": 5,
+      "fn": 1
+    },
+    "total_samples": 18,
+    "uncertain_samples": 0,
+    "evaluated_samples": 18
+  },
+  "error_analysis": {
+    "false_positives": [
+      {
+        "post_id": "sample_3",
+        "predicted_score": 0.65,
+        "ground_truth": "false",
+        "signals": {
+          "nlp": {
+            "sentiment": "POSITIVE",
+            "clickbait": false,
+            "emotion": "joy"
+          },
+          "source": {
+            "account_trust": 0.7,
+            "source_reliability": 0.6,
+            "behavioral_risk": false
+          }
+        }
+      }
+    ],
+    "false_negatives": [
+      {
+        "post_id": "sample_4",
+        "predicted_score": 0.45,
+        "ground_truth": "true",
+        "signals": {
+          "nlp": {
+            "sentiment": "NEUTRAL",
+            "clickbait": false,
+            "emotion": "neutral"
+          },
+          "source": {
+            "account_trust": 0.8,
+            "source_reliability": 0.75,
+            "behavioral_risk": false
+          }
+        }
+      }
+    ],
+    "error_patterns": {
+      "false_positive_patterns": [
+        "Many false positives have clickbait patterns - may need stricter clickbait penalty"
+      ],
+      "false_negative_patterns": [
+        "Many false negatives have high account trust - may be over-penalizing other factors"
+      ]
+    },
+    "improvement_opportunities": [
+      "System tends to over-predict credibility. Consider increasing threshold or strengthening negative signal weights.",
+      "Many false positives have clickbait patterns - may need stricter clickbait penalty",
+      "Many false negatives have high account trust - may be over-penalizing other factors"
+    ]
+  },
+  "summary": "System shows strong overall performance. System shows balanced precision and recall. More false positives (2) than false negatives (1). Identified 3 improvement opportunities.",
+  "timestamp": "2024-01-15T12:00:00"
+}

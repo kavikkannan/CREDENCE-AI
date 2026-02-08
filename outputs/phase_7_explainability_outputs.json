@@ -1,0 +1,132 @@
+{
+  "post_001": {
+    "user_facing_output": {
+      "credibility_score": 0.56,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 56%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_002": {
+    "user_facing_output": {
+      "credibility_score": 0.51,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 51%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_003": {
+    "user_facing_output": {
+      "credibility_score": 0.54,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 54%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_004": {
+    "user_facing_output": {
+      "credibility_score": 0.53,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 53%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_005": {
+    "user_facing_output": {
+      "credibility_score": 0.51,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 51%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_006": {
+    "user_facing_output": {
+      "credibility_score": 0.54,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 54%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_007": {
+    "user_facing_output": {
+      "credibility_score": 0.61,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 61%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_008": {
+    "user_facing_output": {
+      "credibility_score": 0.53,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 53%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_009": {
+    "user_facing_output": {
+      "credibility_score": 0.61,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 61%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_010": {
+    "user_facing_output": {
+      "credibility_score": 0.54,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 54%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_011": {
+    "user_facing_output": {
+      "credibility_score": 0.61,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 61%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_012": {
+    "user_facing_output": {
+      "credibility_score": 0.61,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 61%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  },
+  "post_013": {
+    "user_facing_output": {
+      "credibility_score": 0.54,
+      "warning_label": "Caution Advised",
+      "explanation": [
+        "This content has moderate credibility (confidence: 54%).",
+        "Our analysis systems are in strong agreement about this assessment."
+      ]
+    }
+  }
+}

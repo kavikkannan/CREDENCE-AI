@@ -1,0 +1,93 @@
+{
+  "post_001": {
+    "sentiment": "POSITIVE",
+    "emotion": "anger",
+    "clickbait": false,
+    "extracted_claim": "Your generosity enables the continued growth of our ruthless media empire",
+    "text_embedding_id": "e5fa570e02ff7588b12500943dbc6af9"
+  },
+  "post_002": {
+    "sentiment": "NEGATIVE",
+    "emotion": "anger",
+    "clickbait": false,
+    "extracted_claim": "“It’s really hard to focus on work when you spent the previous night getting railed by Steely in Franco Harris’ living room,” Peter Hayward said https://t",
+    "text_embedding_id": "db5d572cc60cce9c02e1765a25405266"
+  },
+  "post_003": {
+    "sentiment": "NEGATIVE",
+    "emotion": "neutral",
+    "clickbait": false,
+    "extracted_claim": "The Onion’s Exclusive Interview With The Stars Of ‘Heated Rivalry’ https://t",
+    "text_embedding_id": "4afe2ddb9a0e0d6cb45b1287468469d6"
+  },
+  "post_004": {
+    "sentiment": "NEGATIVE",
+    "emotion": "joy",
+    "clickbait": false,
+    "extracted_claim": "Shop at The Onion store",
+    "text_embedding_id": "ec691546b2a7a2e6d6a0b79d57d71df9"
+  },
+  "post_005": {
+    "sentiment": "NEGATIVE",
+    "emotion": "fear",
+    "clickbait": false,
+    "extracted_claim": "Cryptic New Laundry Room Rule Hints At Tale Of Bizarre Infraction https://t",
+    "text_embedding_id": "5c82893c579b4c8a92e36f253013e5a7"
+  },
+  "post_006": {
+    "sentiment": "NEGATIVE",
+    "emotion": "surprise",
+    "clickbait": false,
+    "extracted_claim": "Report: NHL Actually Has Had Hundreds Of Openly Gay Players For Years https://t",
+    "text_embedding_id": "075873f045fd5f4476db31e46cc36446"
+  },
+  "post_007": {
+    "sentiment": "POSITIVE",
+    "emotion": "neutral",
+    "clickbait": false,
+    "extracted_claim": "Vivid Sex Dream About Steely McBeam Again https://t",
+    "text_embedding_id": "bad28d411a05ba7981159004ebb3b790"
+  },
+  "post_008": {
+    "sentiment": "NEGATIVE",
+    "emotion": "joy",
+    "clickbait": false,
+    "extracted_claim": "Spencer Pratt Announces Run For L",
+    "text_embedding_id": "3820bca1053a78cda8b9b283ad71f30a"
+  },
+  "post_009": {
+    "sentiment": "POSITIVE",
+    "emotion": "sadness",
+    "clickbait": false,
+    "extracted_claim": "Wild-Eyed Andy Cohen Announces ‘The Real Housewives Of My Attic' https://t",
+    "text_embedding_id": "558530795cfe5797d1b915208ce04ceb"
+  },
+  "post_010": {
+    "sentiment": "NEGATIVE",
+    "emotion": "neutral",
+    "clickbait": false,
+    "extracted_claim": "This is not a paid advertisement",
+    "text_embedding_id": "65272af5486f022cffd3f111e95f23d8"
+  },
+  "post_011": {
+    "sentiment": "POSITIVE",
+    "emotion": "neutral",
+    "clickbait": false,
+    "extracted_claim": "Powerful Bidet Blasts Hole Clean Through Man https://t",
+    "text_embedding_id": "c3bc0d946ade12a0c3f72b89ea6f4b7b"
+  },
+  "post_012": {
+    "sentiment": "POSITIVE",
+    "emotion": "neutral",
+    "clickbait": false,
+    "extracted_claim": "God Admits Imitation Crab Tastes Just As Good https://t",
+    "text_embedding_id": "ef022b5eb908122100bc9c41a058bdd8"
+  },
+  "post_013": {
+    "sentiment": "NEGATIVE",
+    "emotion": "joy",
+    "clickbait": false,
+    "extracted_claim": "Girlfriend's Dad Pretty Hot https://t",
+    "text_embedding_id": "3b05d60af900e2c30da34df13b84c30d"
+  }
+}

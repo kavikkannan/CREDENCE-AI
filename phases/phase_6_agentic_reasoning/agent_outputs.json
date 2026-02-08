@@ -1,0 +1,42 @@
+{
+  "sample_1": {
+    "final_credibility_score": 0.825,
+    "agent_agreement_level": 0.85,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Positive emotion detected: joy (+0.05)",
+      "TextAgent: Integrated phase 5 credibility score: 0.750",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.100 (+0.05)",
+      "SourceAgent: Account trust score: 0.900 (impact: 0.160)",
+      "SourceAgent: Source reliability score: 0.800 (impact: 0.120)",
+      "SourceAgent: No behavioral risk flags (+0.05)",
+      "AggregatorAgent: TextAgent score: 0.850 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.830 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.825",
+      "AggregatorAgent: Agent agreement level: 0.850 (std_dev: 0.075)"
+    ]
+  },
+  "sample_2": {
+    "final_credibility_score": 0.225,
+    "agent_agreement_level": 0.70,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: Clickbait pattern detected (-0.2)",
+      "TextAgent: Manipulative emotion detected: anger (-0.15)",
+      "TextAgent: Integrated phase 5 credibility score: 0.250",
+      "ImageAgent: Image tampering detected (-0.3)",
+      "ImageAgent: High AI-generated probability: 0.800 (-0.25)",
+      "SourceAgent: Account trust score: 0.100 (impact: -0.160)",
+      "SourceAgent: Source reliability score: 0.200 (impact: -0.120)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.200 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.200 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.270 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.225",
+      "AggregatorAgent: Agent agreement level: 0.700 (std_dev: 0.150)"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "sample_1": {
+    "content_credibility_score": 0.75,
+    "risk_category": "low"
+  },
+  "sample_2": {
+    "content_credibility_score": 0.25,
+    "risk_category": "high"
+  }
+}

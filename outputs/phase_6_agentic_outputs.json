@@ -1,0 +1,267 @@
+{
+  "post_001": {
+    "final_credibility_score": 0.5647,
+    "agent_agreement_level": 0.8989,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Manipulative emotion detected: anger (-0.15)",
+      "TextAgent: Integrated phase 5 credibility score: 0.727",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: AI-generated probability: 0.300",
+      "ImageAgent: OCR text extracted (114 chars)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.613 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.600 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.565",
+      "AggregatorAgent: Agent agreement level: 0.899 (std_dev: 0.051)"
+    ]
+  },
+  "post_002": {
+    "final_credibility_score": 0.5069,
+    "agent_agreement_level": 0.8039,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Manipulative emotion detected: anger (-0.15)",
+      "TextAgent: Integrated phase 5 credibility score: 0.525",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.412 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.507",
+      "AggregatorAgent: Agent agreement level: 0.804 (std_dev: 0.098)"
+    ]
+  },
+  "post_003": {
+    "final_credibility_score": 0.5384,
+    "agent_agreement_level": 0.8597,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: neutral",
+      "TextAgent: Integrated phase 5 credibility score: 0.555",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "ImageAgent: OCR text extracted (190 chars)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.502 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.538",
+      "AggregatorAgent: Agent agreement level: 0.860 (std_dev: 0.070)"
+    ]
+  },
+  "post_004": {
+    "final_credibility_score": 0.5296,
+    "agent_agreement_level": 0.9113,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Positive emotion detected: joy (+0.05)",
+      "TextAgent: Integrated phase 5 credibility score: 0.526",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: AI-generated probability: 0.300",
+      "ImageAgent: OCR text extracted (29 chars)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.513 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.600 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.530",
+      "AggregatorAgent: Agent agreement level: 0.911 (std_dev: 0.044)"
+    ]
+  },
+  "post_005": {
+    "final_credibility_score": 0.5069,
+    "agent_agreement_level": 0.8039,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Manipulative emotion detected: fear (-0.15)",
+      "TextAgent: Integrated phase 5 credibility score: 0.525",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.412 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.507",
+      "AggregatorAgent: Agent agreement level: 0.804 (std_dev: 0.098)"
+    ]
+  },
+  "post_006": {
+    "final_credibility_score": 0.5445,
+    "agent_agreement_level": 0.867,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Positive emotion detected: surprise (+0.05)",
+      "TextAgent: Integrated phase 5 credibility score: 0.540",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.520 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.544",
+      "AggregatorAgent: Agent agreement level: 0.867 (std_dev: 0.066)"
+    ]
+  },
+  "post_007": {
+    "final_credibility_score": 0.611,
+    "agent_agreement_level": 0.8234,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: neutral",
+      "TextAgent: Integrated phase 5 credibility score: 0.770",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.710 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.611",
+      "AggregatorAgent: Agent agreement level: 0.823 (std_dev: 0.088)"
+    ]
+  },
+  "post_008": {
+    "final_credibility_score": 0.5296,
+    "agent_agreement_level": 0.9113,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Positive emotion detected: joy (+0.05)",
+      "TextAgent: Integrated phase 5 credibility score: 0.526",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: AI-generated probability: 0.300",
+      "ImageAgent: OCR text extracted (118 chars)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.513 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.600 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.530",
+      "AggregatorAgent: Agent agreement level: 0.911 (std_dev: 0.044)"
+    ]
+  },
+  "post_009": {
+    "final_credibility_score": 0.611,
+    "agent_agreement_level": 0.8234,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: sadness",
+      "TextAgent: Integrated phase 5 credibility score: 0.770",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.710 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.611",
+      "AggregatorAgent: Agent agreement level: 0.823 (std_dev: 0.088)"
+    ]
+  },
+  "post_010": {
+    "final_credibility_score": 0.5384,
+    "agent_agreement_level": 0.8597,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: neutral",
+      "TextAgent: Integrated phase 5 credibility score: 0.555",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "ImageAgent: OCR text extracted (31 chars)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.502 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.538",
+      "AggregatorAgent: Agent agreement level: 0.860 (std_dev: 0.070)"
+    ]
+  },
+  "post_011": {
+    "final_credibility_score": 0.611,
+    "agent_agreement_level": 0.8234,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: neutral",
+      "TextAgent: Integrated phase 5 credibility score: 0.770",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.710 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.611",
+      "AggregatorAgent: Agent agreement level: 0.823 (std_dev: 0.088)"
+    ]
+  },
+  "post_012": {
+    "final_credibility_score": 0.611,
+    "agent_agreement_level": 0.8234,
+    "reasoning": [
+      "TextAgent: Positive sentiment detected (+0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Emotion: neutral",
+      "TextAgent: Integrated phase 5 credibility score: 0.770",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.710 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.611",
+      "AggregatorAgent: Agent agreement level: 0.823 (std_dev: 0.088)"
+    ]
+  },
+  "post_013": {
+    "final_credibility_score": 0.5445,
+    "agent_agreement_level": 0.867,
+    "reasoning": [
+      "TextAgent: Negative sentiment detected (-0.1)",
+      "TextAgent: No clickbait patterns detected (+0.05)",
+      "TextAgent: Positive emotion detected: joy (+0.05)",
+      "TextAgent: Integrated phase 5 credibility score: 0.540",
+      "ImageAgent: No image tampering detected (+0.1)",
+      "ImageAgent: Low AI-generated probability: 0.000 (+0.05)",
+      "SourceAgent: Account trust score: 1.000 (impact: 0.200)",
+      "SourceAgent: Source reliability score: 0.500 (impact: 0.000)",
+      "SourceAgent: Behavioral risk flag detected (-0.2)",
+      "AggregatorAgent: TextAgent score: 0.520 (weight: 0.350)",
+      "AggregatorAgent: ImageAgent score: 0.650 (weight: 0.250)",
+      "AggregatorAgent: SourceAgent score: 0.500 (weight: 0.400)",
+      "AggregatorAgent: Weighted aggregation: 0.544",
+      "AggregatorAgent: Agent agreement level: 0.867 (std_dev: 0.066)"
+    ]
+  }
+}

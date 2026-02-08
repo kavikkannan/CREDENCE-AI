@@ -1,0 +1,263 @@
+{
+    "global_rules": {
+        "project_context": "GenAI Social Media Credibility Analyzer",
+        "architecture_reference": "docs/system_pipeline_spec.json",
+        "execution_mode": "local_prototype",
+        "constraints": [
+            "follow phase contracts strictly",
+            "do not introduce cloud or deployment logic",
+            "use pretrained models only",
+            "prefer explainability over optimization",
+            "outputs must match defined schemas exactly"
+        ]
+    },
+    "project_name": "GenAI Social Media Credibility Analyzer",
+    "execution_mode": "local_prototype",
+    "design_principle": [
+      "modular",
+      "phase-driven",
+      "explainable",
+      "research-oriented"
+    ],
+  
+    "global_input_schema": {
+      "post_id": "string",
+      "platform": "string",
+      "text": "string",
+      "image_path": "string | null",
+      "urls": "array[string]",
+      "hashtags": "array[string]",
+      "likes": "integer",
+      "retweets": "integer",
+      "timestamp": "YYYY-MM-DD",
+      "account": {
+        "account_id": "string",
+        "account_age_days": "integer",
+        "verified": "boolean",
+        "historical_post_count": "integer",
+        "name": "string (optional)",
+        "screen_name": "string (optional)",
+        "description": "string (optional)",
+        "followers_count": "integer (optional)",
+        "friends_count": "integer (optional)",
+        "profile_image_url": "string (optional)"
+      }
+    },
+  
+    "phases": {
+  
+      "phase_1_data_ingestion": {
+        "description": "Extracts and normalizes raw social media data into a unified schema",
+        "inputs": {
+          "raw_social_media_data": "platform-specific dumps / API outputs"
+        },
+        "outputs": {
+          "normalized_post_object": "global_input_schema"
+        },
+        "passes_to": [
+          "phase_2_nlp_analysis",
+          "phase_3_source_account_analysis",
+          "phase_4_image_analysis"
+        ]
+      },
+  
+      "phase_2_nlp_analysis": {
+        "description": "Analyzes textual content for linguistic and emotional credibility signals",
+        "inputs": {
+          "from_phase_1": [
+            "text",
+            "hashtags",
+            "urls"
+          ],
+          "extra_inputs": {
+            "language": "string (optional, default: auto-detect)",
+            "domain_context": "string (optional)"
+          }
+        },
+        "processing": [
+          "sentiment_analysis",
+          "emotion_detection",
+          "clickbait_detection",
+          "claim_extraction",
+          "text_embedding"
+        ],
+        "outputs": {
+          "nlp_signals": {
+            "sentiment": "string",
+            "emotion": "string",
+            "clickbait": "boolean",
+            "extracted_claim": "string",
+            "text_embedding_id": "string"
+          }
+        },
+        "passes_to": [
+          "phase_5_misinformation_modeling",
+          "phase_6_agentic_reasoning"
+        ]
+      },
+  
+      "phase_3_source_account_analysis": {
+        "description": "Evaluates credibility based on account behavior and source reliability",
+        "inputs": {
+          "from_phase_1": [
+            "account.account_age_days",
+            "account.verified",
+            "account.historical_post_count",
+            "urls"
+          ],
+          "extra_inputs": {
+            "known_domain_list": "array[string] (optional)",
+            "blacklisted_sources": "array[string] (optional)"
+          }
+        },
+        "processing": [
+          "account_trust_scoring",
+          "domain_reliability_scoring",
+          "behavioral_heuristics"
+        ],
+        "outputs": {
+          "source_signals": {
+            "account_trust_score": "float (0-1)",
+            "source_reliability_score": "float (0-1)",
+            "behavioral_risk_flag": "boolean"
+          }
+        },
+        "passes_to": [
+          "phase_5_misinformation_modeling",
+          "phase_6_agentic_reasoning"
+        ]
+      },
+  
+      "phase_4_image_analysis": {
+        "description": "Analyzes visual content for manipulation and hidden textual cues",
+        "inputs": {
+          "from_phase_1": [
+            "image_path"
+          ],
+          "extra_inputs": {
+            "image_metadata": "object (optional)"
+          }
+        },
+        "processing": [
+          "ocr_text_extraction",
+          "image_tampering_detection",
+          "ai_generated_image_estimation"
+        ],
+        "outputs": {
+          "image_signals": {
+            "ocr_text": "string",
+            "image_tampered": "boolean",
+            "ai_generated_probability": "float (0-1)"
+          }
+        },
+        "passes_to": [
+          "phase_2_nlp_analysis",
+          "phase_5_misinformation_modeling",
+          "phase_6_agentic_reasoning"
+        ]
+      },
+  
+      "phase_5_misinformation_modeling": {
+        "description": "Combines multimodal signals to estimate content-level misinformation risk",
+        "inputs": {
+          "from_phase_2": "nlp_signals",
+          "from_phase_3": "source_signals",
+          "from_phase_4": "image_signals (optional)"
+        },
+        "processing": [
+          "fake_news_classification",
+          "heuristic_rule_fusion",
+          "credibility_score_computation"
+        ],
+        "outputs": {
+          "misinformation_assessment": {
+            "content_credibility_score": "float (0-1)",
+            "risk_category": "low | medium | high"
+          }
+        },
+        "passes_to": [
+          "phase_6_agentic_reasoning"
+        ]
+      },
+  
+      "phase_6_agentic_reasoning": {
+        "description": "Performs multi-agent reasoning and conflict resolution across all signals",
+        "inputs": {
+          "from_phase_2": "nlp_signals",
+          "from_phase_3": "source_signals",
+          "from_phase_4": "image_signals (optional)",
+          "from_phase_5": "misinformation_assessment"
+        },
+        "extra_inputs": {
+          "agent_weights": "object (optional)",
+          "decision_rules": "object (optional)"
+        },
+        "processing": [
+          "text_agent_evaluation",
+          "image_agent_evaluation",
+          "source_agent_evaluation",
+          "aggregation_agent_decision"
+        ],
+        "outputs": {
+          "final_decision": {
+            "final_credibility_score": "float (0-1)",
+            "agent_agreement_level": "float (0-1)",
+            "reasoning_trace": "array[string]"
+          }
+        },
+        "passes_to": [
+          "phase_7_explainability_feedback"
+        ]
+      },
+  
+      "phase_7_explainability_feedback": {
+        "description": "Generates human-readable explanations and captures user feedback",
+        "inputs": {
+          "from_phase_6": "final_decision"
+        },
+        "extra_inputs": {
+          "user_feedback": "true | false | uncertain (optional)"
+        },
+        "processing": [
+          "explanation_generation",
+          "warning_message_generation",
+          "feedback_logging"
+        ],
+        "outputs": {
+          "user_facing_output": {
+            "credibility_score": "float (0-1)",
+            "warning_label": "string",
+            "explanation": "array[string]"
+          },
+          "feedback_record": "object (optional)"
+        },
+        "passes_to": [
+          "phase_8_evaluation_learning"
+        ]
+      },
+  
+      "phase_8_evaluation_learning": {
+        "description": "Evaluates system performance and adjusts internal parameters",
+        "inputs": {
+          "from_phase_7": [
+            "feedback_record",
+            "final_decision"
+          ]
+        },
+        "processing": [
+          "performance_metrics_computation",
+          "error_analysis",
+          "weight_adjustment_simulation"
+        ],
+        "outputs": {
+          "evaluation_metrics": {
+            "accuracy": "float",
+            "precision": "float",
+            "recall": "float"
+          },
+          "updated_parameters": "object (optional)"
+        }
+      }
+    }
+  }
+  

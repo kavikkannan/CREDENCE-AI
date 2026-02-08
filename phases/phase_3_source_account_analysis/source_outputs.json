@@ -1,0 +1,17 @@
+{
+  "sample_1": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 1.0,
+    "behavioral_risk_flag": false
+  },
+  "sample_2": {
+    "account_trust_score": 0.05,
+    "source_reliability_score": 0.3,
+    "behavioral_risk_flag": true
+  },
+  "sample_3": {
+    "account_trust_score": 0.2,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": false
+  }
+}

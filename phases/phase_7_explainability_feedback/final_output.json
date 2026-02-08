@@ -1,0 +1,54 @@
+{
+  "sample_1": {
+    "user_facing_output": {
+      "credibility_score": 0.83,
+      "warning_label": "Credible",
+      "explanation": [
+        "This content appears to be credible (confidence: 83%).",
+        "Our analysis systems are in strong agreement about this assessment.",
+        "Text Analysis: The text has a positive tone. The text conveys positive emotions (joy).",
+        "Image Analysis: The image appears authentic. The image appears to be naturally created.",
+        "Source Analysis: The account appears trustworthy. The account shows normal behavioral patterns."
+      ]
+    },
+    "feedback_record": {
+      "post_id": "sample_1",
+      "timestamp": "2024-01-15T10:30:00",
+      "user_feedback": "true",
+      "system_prediction": {
+        "credibility_score": 0.83,
+        "warning_label": "Credible"
+      },
+      "final_decision": {
+        "final_credibility_score": 0.825,
+        "agent_agreement_level": 0.85
+      }
+    }
+  },
+  "sample_2": {
+    "user_facing_output": {
+      "credibility_score": 0.23,
+      "warning_label": "High Risk - Verify Information",
+      "explanation": [
+        "This content has low credibility (confidence: 23%).",
+        "Our analysis systems show moderate agreement about this assessment.",
+        "Text Analysis: The text has a negative tone. The text contains clickbait patterns.",
+        "Image Analysis: The image shows signs of manipulation. The image may be AI-generated.",
+        "Source Analysis: The account has low trust indicators. The account shows suspicious behavioral patterns."
+      ]
+    },
+    "feedback_record": {
+      "post_id": "sample_2",
+      "timestamp": "2024-01-15T10:31:00",
+      "user_feedback": "false",
+      "system_prediction": {
+        "credibility_score": 0.23,
+        "warning_label": "High Risk - Verify Information"
+      },
+      "final_decision": {
+        "final_credibility_score": 0.225,
+        "agent_agreement_level": 0.70
+      }
+    }
+  }
+}

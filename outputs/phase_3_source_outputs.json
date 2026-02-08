@@ -1,0 +1,67 @@
+{
+  "post_001": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_002": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_003": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_004": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_005": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_006": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_007": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_008": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_009": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_010": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_011": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_012": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  },
+  "post_013": {
+    "account_trust_score": 1.0,
+    "source_reliability_score": 0.5,
+    "behavioral_risk_flag": true
+  }
+}

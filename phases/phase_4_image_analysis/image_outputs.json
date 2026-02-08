@@ -1,0 +1,17 @@
+{
+  "sample_1": {
+    "ocr_text": "Sample extracted text from image",
+    "image_tampered": false,
+    "ai_generated_probability": 0.15
+  },
+  "sample_2": {
+    "ocr_text": "",
+    "image_tampered": false,
+    "ai_generated_probability": 0.0
+  },
+  "sample_3": {
+    "ocr_text": "Another example of OCR text",
+    "image_tampered": true,
+    "ai_generated_probability": 0.45
+  }
+}

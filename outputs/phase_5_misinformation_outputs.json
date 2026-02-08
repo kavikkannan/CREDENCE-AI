@@ -1,0 +1,54 @@
+{
+  "post_001": {
+    "content_credibility_score": 0.7265,
+    "risk_category": "low"
+  },
+  "post_002": {
+    "content_credibility_score": 0.525,
+    "risk_category": "medium"
+  },
+  "post_003": {
+    "content_credibility_score": 0.555,
+    "risk_category": "medium"
+  },
+  "post_004": {
+    "content_credibility_score": 0.5265,
+    "risk_category": "medium"
+  },
+  "post_005": {
+    "content_credibility_score": 0.525,
+    "risk_category": "medium"
+  },
+  "post_006": {
+    "content_credibility_score": 0.54,
+    "risk_category": "medium"
+  },
+  "post_007": {
+    "content_credibility_score": 0.77,
+    "risk_category": "low"
+  },
+  "post_008": {
+    "content_credibility_score": 0.5265,
+    "risk_category": "medium"
+  },
+  "post_009": {
+    "content_credibility_score": 0.77,
+    "risk_category": "low"
+  },
+  "post_010": {
+    "content_credibility_score": 0.555,
+    "risk_category": "medium"
+  },
+  "post_011": {
+    "content_credibility_score": 0.77,
+    "risk_category": "low"
+  },
+  "post_012": {
+    "content_credibility_score": 0.77,
+    "risk_category": "low"
+  },
+  "post_013": {
+    "content_credibility_score": 0.54,
+    "risk_category": "medium"
+  }
+}
